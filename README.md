@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="#">
-    <img src="src\logo.png" width="300" alt="C#">
+    <img src="images\logo.png" width="300" alt="C#">
   </a>
 </p>
 
@@ -34,6 +34,7 @@ Search through challenges, study something related to programming.
 In this project we use the following technologies:
 
 - GIT: <a href="https://git-scm.com/downloads">Setup</a>
+   Visual Studio 2022: <a href="https://visualstudio.microsoft.com/">Visual Studio</a>
 - Visual Studio Code: <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
 - SDK .Net: <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">6</a>
   
