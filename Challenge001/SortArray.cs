@@ -1,34 +1,37 @@
 ﻿using static System.Console;
 
-public class SortArray
+namespace Challenge001
 {
-	public void ShowArray(int[] arrayNumbers)
+	public class SortArray
 	{
-		foreach (int number in arrayNumbers)
-			Write($"{number} ");
-	}
-
-	public int[] BubbleSort(int[] array)
-	{
-		int size = array.Length - 1;
-		int comparisonNumber = 0;
-		int changeNumber = 0;
-
-		for (int i = size; i >= 1; i--)
+		public void ShowArray(int[] arrayNumbers)
 		{
-			for (int j = 0; j < i; j++)
-			{
-				comparisonNumber++;
-				if (array[j] > array[j + 1])
-				{
-					int aux = array[j];
-					array[j] = array[j + 1];
-					array[j + 1] = aux;
-					changeNumber++;
-				}
-			}
+			foreach (int number in arrayNumbers)
+				Write($"{number} ");
 		}
 
-		return array;
+		public int[] BubbleSort(int[] array)
+		{
+			int size = array.Length - 1;
+			int comparisonNumber = 0;
+			int changeNumber = 0;
+
+			for (int i = size; i >= 1; i--)
+			{
+				for (int j = 0; j < i; j++)
+				{
+					comparisonNumber++;
+					if (array[j] > array[j + 1])
+					{
+						int aux = array[j];
+						array[j] = array[j + 1];
+						array[j + 1] = aux;
+						changeNumber++;
+					}
+				}
+			}
+
+			return array;
+		}
 	}
 }

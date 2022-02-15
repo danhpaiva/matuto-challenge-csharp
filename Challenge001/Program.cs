@@ -1,4 +1,5 @@
-﻿using static System.Console;
+﻿using Challenge001;
+using static System.Console;
 
 WriteLine("\tSorting Algorithm\n");
 
