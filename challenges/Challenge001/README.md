@@ -3,7 +3,7 @@
 <h3>Sorting Algorithms</h3>
 
 <p>
-Working with algorithms, understanding their advantages and disadvantages.
+Working with algorithms, understanding their advantages and disadvantages.<br>
 Here they are:
 
 - Bubble Sort
