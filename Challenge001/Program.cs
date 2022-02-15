@@ -1,32 +1,32 @@
 ﻿using static System.Console;
 
-WriteLine("\tSorting Algorithm");
+WriteLine("\tSorting Algorithm\n");
 
 int[] numbers = { 10, 2, 7, 50, 1, 9, 100, 34, 67 , 77 };
 
-WriteLine("Sorting with Bubble Sort\n");
-
-Write("Original Array: ");
-
-foreach (int number in numbers)
-    Write($"{number} ");
+WriteLine("Original Array: ");
+ShowArray(numbers);
 
 WriteLine("\n\nSorting the array using Bubble Sort\n");
 int[] arraySorted = bubbleSort(numbers);
 
-Write("Sorted Array: ");
-foreach (int number in arraySorted)
-    Write($"{number} ");
+WriteLine("Sorted Array: ");
+ShowArray(arraySorted);
 
 ReadLine();
 
+static void ShowArray(int[] arrayNumbers)
+{
+	foreach (int number in arrayNumbers)
+		Write($"{number} ");
+}
+
 static int[] bubbleSort(int[] array)
 {
-	int size = array.Length;
 	int comparisonNumber = 0;
 	int changeNumber = 0;
 
-	for (int i = size - 1; i >= 1; i--)
+	for (int i = array.Length - 1; i >= 1; i--)
 	{
 		for (int j = 0; j < i; j++)
 		{
