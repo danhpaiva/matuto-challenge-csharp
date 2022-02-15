@@ -7,7 +7,7 @@ int[] numbers = { 10, 2, 7, 50, 1, 9, 100, 34, 67 , 77 };
 WriteLine("Original Array: ");
 ShowArray(numbers);
 
-WriteLine("\n\nSorting the array using Bubble Sort\n");
+WriteLine("\n\n\tSorting the array using Bubble Sort\n");
 int[] arraySorted = bubbleSort(numbers);
 
 WriteLine("Sorted Array: ");
