@@ -3,7 +3,7 @@
 WriteLine("\tSorting Algorithm\n");
 
 int[] numbers = { 10, 2, 7, 50, 1, 9, 100, 34, 67 , 77 };
-SortArray sortArray = new SortArray();
+SortArray sortArray = new();
 
 WriteLine("Original Array: ");
 sortArray.ShowArray(numbers);
