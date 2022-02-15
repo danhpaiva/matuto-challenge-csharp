@@ -8,7 +8,7 @@ WriteLine("Original Array: ");
 ShowArray(numbers);
 
 WriteLine("\n\n\tSorting the array using Bubble Sort\n");
-int[] arrayBubble = bubbleSort(numbers);
+int[] arrayBubble = BubbleSort(numbers);
 
 WriteLine("Sorted Array: ");
 ShowArray(arrayBubble);
@@ -21,7 +21,7 @@ static void ShowArray(int[] arrayNumbers)
 		Write($"{number} ");
 }
 
-static int[] bubbleSort(int[] array)
+static int[] BubbleSort(int[] array)
 {
 	int size = array.Length - 1;
 	int comparisonNumber = 0;
