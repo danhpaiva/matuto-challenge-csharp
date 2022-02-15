@@ -33,10 +33,10 @@ Search through challenges, study something related to programming.
 <h2 id=technology>🧰 Technology</h2>
 In this project we use the following technologies:
 
-- GIT: <a href="https://git-scm.com/downloads">Setup</a>
-- Visual Studio 2022: <a href="https://visualstudio.microsoft.com/">Visual Studio</a>
-- Visual Studio Code: <a href="https://code.visualstudio.com/download">Visual Studio Code</a>
-- SDK .Net: <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">6</a>
+- GIT: <a href="https://git-scm.com/downloads">Download</a>
+- Visual Studio 2022: <a href="https://visualstudio.microsoft.com/">Download</a>
+- Visual Studio Code: <a href="https://code.visualstudio.com/download">Download</a>
+- SDK .Net 6: <a href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">Download</a>
   
 <h2 id=author>😄 Author</h2>
 Developed by <a href="https://www.linkedin.com/in/danhpaiva/">Daniel Paiva</a>
