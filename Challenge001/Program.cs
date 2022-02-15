@@ -23,10 +23,11 @@ static void ShowArray(int[] arrayNumbers)
 
 static int[] bubbleSort(int[] array)
 {
+	int size = array.Length - 1;
 	int comparisonNumber = 0;
 	int changeNumber = 0;
 
-	for (int i = array.Length - 1; i >= 1; i--)
+	for (int i = size; i >= 1; i--)
 	{
 		for (int j = 0; j < i; j++)
 		{
