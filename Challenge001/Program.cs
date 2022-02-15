@@ -8,10 +8,10 @@ WriteLine("Original Array: ");
 ShowArray(numbers);
 
 WriteLine("\n\n\tSorting the array using Bubble Sort\n");
-int[] arraySorted = bubbleSort(numbers);
+int[] arrayBubble = bubbleSort(numbers);
 
 WriteLine("Sorted Array: ");
-ShowArray(arraySorted);
+ShowArray(arrayBubble);
 
 ReadLine();
 
